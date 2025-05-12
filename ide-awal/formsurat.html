@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Admin Dashboard</title>
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link
+        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet">
+    <link href="css/sb-admin-2.min.css" rel="stylesheet">
+
+</head>
+
+
+<div class="card shadow mb-4">
+    <div class="card-header py-3">
+        <h6 class="m-0 font-weight-bold text-primary">Form Surat Reimbursement</h6>
+    </div>
+    <div class="card-body">
+        <form>
+            <div class="form-group">
+                <label for="preparedBy">Prepared By</label>
+                <input type="text" class="form-control" id="preparedBy" placeholder="Masukkan nama pengaju">
+            </div>
+            <div class="form-group">
+                <label for="tanggalSurat">Tanggal Surat</label>
+                <input type="date" class="form-control" id="tanggalSurat" name="tanggalSurat">
+            </div>            
+            <div class="form-group">
+                <label for="serialNumber">Nomor Seri</label>
+                <input type="text" class="form-control" id="serialNumber" placeholder="Masukkan nomor seri surat">
+            </div>
+            <div class="form-group">
+                <label for="name">Nama Pengajuan</label>
+                <input type="text" class="form-control" id="name" placeholder="Masukkan nama pengajuan">
+            </div>
+            <div class="form-group">
+                <label for="description">Deskripsi Reimbursement</label>
+                <textarea class="form-control" id="description" rows="3" placeholder="Masukkan keterangan"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="departement">Departemen</label>
+                <input type="text" class="form-control" id="serialNumber" placeholder="Masukkan nama departement anda">
+            </div>
+            <div class="form-group">
+                <label for="amount">Total Reimbursement (Rp)</label>
+                <input type="number" class="form-control" id="amount" placeholder="Masukkan jumlah reimbursement">
+            </div>
+            <div class="form-group">
+                <label for="checkedBy">Checked By</label>
+                <input type="text" class="form-control" id="checkedBy" placeholder="Masukkan nama pemeriksa">
+            </div>
+            <div class="form-group">
+                <label for="approvedBy">Approved By</label>
+                <input type="text" class="form-control" id="approvedBy" placeholder="Masukkan nama approver">
+            </div>
+            <div class="form-group">
+                <label for="attachment">Lampiran Bukti</label>
+                <input type="file" class="form-control-file" id="attachment">
+            </div>
+            <a href="index.html" class="btn btn-primary">Submit</a>
+        </form>
+    </div>
+</div>
+
+            <!-- Bootstrap core JavaScript-->
+            <script src="vendor/jquery/jquery.min.js"></script>
+            <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+            <!-- Core plugin JavaScript-->
+            <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+            <!-- Custom scripts for all pages-->
+            <script src="js/sb-admin-2.min.js"></script>
+
+            <!-- Page level plugins -->
+            <script src="vendor/chart.js/Chart.min.js"></script>
+
+            <!-- Page level custom scripts -->
+            <script src="js/demo/chart-area-demo.js"></script>
+            <script src="js/demo/chart-pie-demo.js"></script>
+
+</body>
+</html>
